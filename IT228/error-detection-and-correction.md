@@ -1,5 +1,7 @@
 # Error Detection and Correction
 
+[Third-party source](https://lecturenotes-classroom-assignment-and-submission.s3.ap-south-1.amazonaws.com/3-52a80cdafd-error-detection-and-correction12.pdf)
+
 > Data received must be the same as data transmitted
 
 Data can be corrupted during transmission.
@@ -61,11 +63,14 @@ The receiver clock is 0.1% faster than the sender clock.
 
 When using Forward Error Correction in data transmissions, the receiver can detect and correct a limited number of errors. If there are too many errors, the sender must retransmit the packets that contain the errors.
 
-
-
-
-
-
-*References*
+`
+The key idea of FEC is to transmit enough redundant data to allow receiver to recover from errors all by itself.
+`
 
 [What is Forward Error Correction? (FEC)](https://www.techtarget.com/searchmobilecomputing/definition/forward-error-correction#:~:text=Forward%20error%20correction%20(FEC)%20is,that%20contains%20no%20apparent%20errors.)
+
+
+
+
+## Coding
+
