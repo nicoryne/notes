@@ -37,3 +37,36 @@ Burst errors are more likely to occur because the noise duration is usually long
 
 > To detect or correct errors, we need to send extra (redundant) bits with data.
 
+
+
+
+## Detection versus Correction
+
+### Error Detection
+
+*As long as we detect the error, the type of said error doesn't matter*
+
+### Error Correction
+
+*In contrast to error detection, we need to know the location and the size of bits during error correction*
+
+The receiver clock is 0.1% faster than the sender clock.
+
+1Kbps = 1 extra bit
+1Mbps = 1000 extra bits
+
+
+
+
+## Forward Error Correction versus Retransmission
+
+When using Forward Error Correction in data transmissions, the receiver can detect and correct a limited number of errors. If there are too many errors, the sender must retransmit the packets that contain the errors.
+
+
+
+
+
+
+*References*
+
+[What is Forward Error Correction? (FEC)](https://www.techtarget.com/searchmobilecomputing/definition/forward-error-correction#:~:text=Forward%20error%20correction%20(FEC)%20is,that%20contains%20no%20apparent%20errors.)
