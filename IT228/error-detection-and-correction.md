@@ -8,7 +8,7 @@ Some applications require that errors be detected and corrected.
 
 ## Types of Errors
 
-*Distortion.*
+*Distortion*
 : Changing the shape of signal.
 
 ### Single-bit error
