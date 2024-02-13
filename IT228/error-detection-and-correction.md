@@ -1,5 +1,5 @@
 # Error Detection and Correction
-
+TODO:   Continue block coding
 [Third-party source](https://lecturenotes-classroom-assignment-and-submission.s3.ap-south-1.amazonaws.com/3-52a80cdafd-error-detection-and-correction12.pdf)
 
 > Data received must be the same as data transmitted
@@ -54,7 +54,7 @@ Burst errors are more likely to occur because the noise duration is usually long
 
 Detection Methods
 - Parity Check
-    - A party bit is added to every data unit so that the total number of 1s (including the partiy bit) becomes even for even-parity check or odd for odd-parity check.
+    - A party bit is added to every data unit so that the total number of 1s (including the parity bit) becomes even for even-parity check, or odd for odd-parity check.
 
     - If receiver finds variety in the number of 1s for each character (odd and even), it will discard and ask for retransmission.
 
