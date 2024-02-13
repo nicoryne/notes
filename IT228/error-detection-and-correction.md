@@ -52,7 +52,8 @@ Burst errors are more likely to occur because the noise duration is usually long
 
 The receiver clock is 0.1% faster than the sender clock.
 
-|1Kbps|1Mbps| 
+|1Kbps|1Mbps|
+````````````````````````````
 |1 extra bit|1000 extra bits|      
 
 
