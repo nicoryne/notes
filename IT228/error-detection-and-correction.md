@@ -8,6 +8,10 @@ Data can be corrupted during transmission.
 
 Some applications require that errors be detected and corrected.
 
+`
+Error Detection and Correction are implemented either at the data link layer or the transport layer of the OSI model
+`
+
 
 
 
@@ -48,6 +52,15 @@ Burst errors are more likely to occur because the noise duration is usually long
 
 *As long as we detect the error, the type of said error doesn't matter*
 
+Detection Methods
+- Parity Check
+    - A party bit is added to every data unit so that the total number of 1s (including the partiy bit) becomes even for even-parity check or odd for odd-parity check.
+
+    - If receiver finds variety in the number of 1s for each character (odd and even), it will discard and ask for retransmission.
+    
+- Cyclic redundancy check
+- Checksum
+
 ### Error Correction
 
 *In contrast to error detection, we need to know the location and the size of bits during error correction*
@@ -74,3 +87,7 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 
 ## Coding
 
+### Block Coding
+
+
+### Convolution code
