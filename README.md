@@ -1,3 +1,3 @@
 # notes
  
-> markdown best note-taking app
+ markdown best note-taking app
