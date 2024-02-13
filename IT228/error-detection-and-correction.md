@@ -57,7 +57,7 @@ Detection Methods
     - A party bit is added to every data unit so that the total number of 1s (including the partiy bit) becomes even for even-parity check or odd for odd-parity check.
 
     - If receiver finds variety in the number of 1s for each character (odd and even), it will discard and ask for retransmission.
-    
+
 - Cyclic redundancy check
 - Checksum
 
@@ -87,7 +87,26 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 
 ## Coding
 
+### The structure of encoder and decoder
+    Encoder
+    - Sender send message
+    - Generator adds parity (redundant) bits
+    - Encoded message with parity bits pass through unreliable transmission
+
+    Receiver
+    - Encoded message is received
+    - Checker corrects or discards the encoded message
+    - If correct, it is accepted to the receiver
+
 ### Block Coding
 
+- Block coding divides messages into blocks, each of *k* bits called **data words**.
 
-### Convolution code
+- *r* redundant bits are added to each block to make the length *n = k + r*.
+
+- The resulting *n-bit* blocks are called **codeword**
+
+- Represented by *C(n, k)*
+
+
+### Convolution Codes
