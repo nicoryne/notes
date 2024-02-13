@@ -6,6 +6,9 @@ Data can be corrupted during transmission.
 
 Some applications require that errors be detected and corrected.
 
+
+
+
 ## Types of Errors
 
 *Distortion*
@@ -24,4 +27,13 @@ For a single-bit error to occur, the noise duration must only be for 1 microseco
  Errors occur in consecutive bits.
 
  Length of burst error is measured from the first corrupted bit to the last corrupted bit.
+
+Burst errors are more likely to occur because the noise duration is usually longer than a single bit.
+
+
+
+
+## Data Redundancy
+
+> To detect or correct errors, we need to send extra (redundant) bits with data.
 
