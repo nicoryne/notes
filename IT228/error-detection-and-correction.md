@@ -52,10 +52,9 @@ Burst errors are more likely to occur because the noise duration is usually long
 
 The receiver clock is 0.1% faster than the sender clock.
 
-|1Kbps|1Mbps|
-````````````````````````````
-|1 extra bit|1000 extra bits|      
+1Mbps: 1 extra bit
 
+1Mbps: 1000 extra bits
 
 
 ## Forward Error Correction versus Retransmission
