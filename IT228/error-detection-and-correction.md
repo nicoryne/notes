@@ -164,6 +164,7 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 | 0110      | 0110001    | 1110      | 1110100  |
 | 0111      | 0111010    | 1111      | 1111111  |
 
-- A (n,k) linear code is said to be cyclic code, if it follows 2 properties:
+
+
 
 ### Convolution Codes
