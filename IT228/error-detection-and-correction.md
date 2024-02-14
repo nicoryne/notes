@@ -1,5 +1,5 @@
 # Error Detection and Correction
-TODO:   Continue block coding
+
 [Third-party source](https://lecturenotes-classroom-assignment-and-submission.s3.ap-south-1.amazonaws.com/3-52a80cdafd-error-detection-and-correction12.pdf)
 
 > Data received must be the same as data transmitted
@@ -164,7 +164,26 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 | 0110      | 0110001    | 1110      | 1110100  |
 | 0111      | 0111010    | 1111      | 1111111  |
 
+#### Hamming Distance
 
+> It is the number of differences between corresponding bits.
 
+**Example**
 
-### Convolution Codes
+- The Hamming distance d(000, 011) is 2 because 000 + 011 is 011 (two 1s)
+
+- The Hamming distance d(10101, 11110) is 3 because 10101 + 11110 is 01011 (three 1s)
+
+`
+  The minimum Hamming distance is the smallest hamming distance between all possible pairs in a set of words.
+`
+
+**Error Detection**
+
+- In order to detect errors up to s errors in all cases, the minimum Hamming distance in a block code must be *d~min~ = s + 1*
+
+    - The minimum d~min~ required to detect atleast 1 error is 2 (2 = s + 1) where s = 1
+
+- However, to gurantee the correction of up to *t* errors in all cases, the minimum Hamming distance in a block code must be *d~min~ = 2t + 1*
+
+    - The minimum d~min~ required to correct atleast 1 error is 2 (3 = 2t + 1) where t = 1
