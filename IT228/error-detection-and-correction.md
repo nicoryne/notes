@@ -67,9 +67,9 @@ Detection Methods
 
 The receiver clock is 0.1% faster than the sender clock.
 
-1Mbps: 1 extra bit
+1Kbps (1,000 bits/second): 1 extra bit
 
-1Mbps: 1000 extra bits
+1Mbps (1,000,000 bits/second): 1000 extra bits
 
 
 ## Forward Error Correction versus Retransmission
@@ -132,8 +132,15 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 
 - 2^n^ = 32 *codewords*
 
-- 16 out of 32 *codewords* are used for message transfer and the rest are eitehr user for other purposes or unused.
+- 16 out of 32 *codewords* are used for message transfer and the rest are either used for other purposes or unused.
 
+#### Code for error detection
 
+| Datawords      | Codewords |
+| :---           |    :----: |
+| 00             | 000       |
+| 01             | 011       |
+| 10             | 101       |
+| 11             | 110       |
 
 ### Convolution Codes
