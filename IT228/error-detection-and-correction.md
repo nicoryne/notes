@@ -2,6 +2,7 @@
 
 [Third-party source](https://lecturenotes-classroom-assignment-and-submission.s3.ap-south-1.amazonaws.com/3-52a80cdafd-error-detection-and-correction12.pdf)
 
+[Quiz](https://highered.mheducation.com/sites/844815617x/student_view0/chapter10/multiple_choice_quiz.html)
 > Data received must be the same as data transmitted
 
 Data can be corrupted during transmission.
@@ -152,8 +153,9 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 - These are special linear block codes with one extra property. In a cyclic code, if a codeword is cyclically shifted (rotated), the result is another codeword.
 
 **A CRC code with C(7,4)**
+*note: n = k + r*
 
-| Dataword  | Codeword   | Dataword  | Codeword |
+| Dataword (k)  | Codeword (n)  | Dataword (k)  | Codeword (n) |
 |:----:     |:----:      | :----:    | :----:   |
 | 0000      | 0000000    | 1000      | 1000101  |
 | 0001      | 0001011    | 1001      | 1001110  |
@@ -163,6 +165,8 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 | 0101      | 0101100    | 1101      | 1101001  |
 | 0110      | 0110001    | 1110      | 1110100  |
 | 0111      | 0111010    | 1111      | 1111111  |
+
+*r = 3*
 
 #### Hamming Distance
 
