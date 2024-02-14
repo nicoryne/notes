@@ -153,7 +153,7 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 
 | Dataword  | Codeword       | Dataword  | Codeword  |
 |:----:     |:----:          | :----:    | :----:    |
-| 0000      | 00000==000==   |
+| 0000      | 0000<mark>000</mark>   |
 | 0001      | 001**011**     |
 | 0010      | 0010**110**    |
 | 0011      | 0011**101**    |
