@@ -136,11 +136,30 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 
 #### Code for error detection
 
-| Datawords      | Codewords |
-| :---           |    :----: |
-| 00             | 000       |
-| 01             | 011       |
-| 10             | 101       |
-| 11             | 110       |
+| Datawords | Codewords |
+|:---:      |:----:     |
+| 00        | 000       |
+| 01        | 011       |
+| 10        | 101       |
+| 11        | 110       |
+
+> An error-detecting code only detect the types of errors for which it is designed; other types of errors may remain undetected
+
+#### Cyclic codes
+
+- These are special linear block codes with one extra property. In a cyclic code, if a codeword is cyclically shifted (rotated), the result is another codeword.
+
+**A CRC code with C(7,4)**
+
+| Dataword  | Codeword       | Dataword  | Codeword  |
+|:----:     |:----:          | :----:    | :----:    |
+| 0000      | 00000**000**   |
+| 0001      | 001**011**     |
+| 0010      | 0010**110**    |
+| 0011      | 0011**101**    |
+| 0100      | 0100**111**    |
+| 0101      | 0101**100**    |
+| 0110      | 0110**001**    |
+| 0111      | 0111**010**    |      
 
 ### Convolution Codes
