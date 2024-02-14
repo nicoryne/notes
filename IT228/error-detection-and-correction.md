@@ -101,12 +101,12 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 ### Block Coding
 
 - Block coding divides messages into blocks, each of *k* bits called **data words**.
-    - *dw = k*
+    - **Dataword:** *= k*
 
 - *r* redundant bits are added to each block to make the length *n = k + r*.
 
 - The resulting *n-bit* blocks are called **codeword**
-    - *cw = k + r*
+    - **Codeword:** *n = k + r*
 
 - Represented by *C(n, k)*
 
@@ -147,6 +147,8 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 
 #### Cyclic codes
 
+- A subclass of Linear Block code
+
 - These are special linear block codes with one extra property. In a cyclic code, if a codeword is cyclically shifted (rotated), the result is another codeword.
 
 **A CRC code with C(7,4)**
@@ -161,5 +163,7 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 | 0101      | 0101100    | 1101      | 1101001  |
 | 0110      | 0110001    | 1110      | 1110100  |
 | 0111      | 0111010    | 1111      | 1111111  |
+
+- A (n,k) linear code is said to be cyclic code, if it follows 2 properties:
 
 ### Convolution Codes
