@@ -101,12 +101,39 @@ The key idea of FEC is to transmit enough redundant data to allow receiver to re
 ### Block Coding
 
 - Block coding divides messages into blocks, each of *k* bits called **data words**.
+    - *dw = k*
 
 - *r* redundant bits are added to each block to make the length *n = k + r*.
 
 - The resulting *n-bit* blocks are called **codeword**
+    - *cw = k + r*
 
 - Represented by *C(n, k)*
+
+
+
+#### Linear Block Codes
+
+- Information is divided into blocks of length k
+
+- *r* parity bits or check bits are added to each block (total length *n = k + r*)
+
+- Code rate *R = k / n*
+
+- C (*n, k*) block code is said to be linear if the vector sum of two codewords is a codeword
+
+
+#### 4B/5B Block Coding
+
+**Example**
+> In this coding scheme, k = 4 and n = 5.
+
+- 2^k^ = 16 *datawords*
+
+- 2^n^ = 32 *codewords*
+
+- 16 out of 32 *codewords* are used for message transfer and the rest are eitehr user for other purposes or unused.
+
 
 
 ### Convolution Codes
