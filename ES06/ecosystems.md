@@ -58,6 +58,7 @@ Short day plants: produce flowers after the winter solstice.
 | :---: | :---------  |
 |   O   | Decomposed material; humus or organic |
 |   A   | Leached mineral horizon with high content of organic matter; topsoil |
+|   E   | Eluviated horizon |
 |   B   | Zone of accumulation of fine materials and mineral precipitates; subsoil |
 |   C   | Partly weathered rock; parent material |
 |   R   | Hard bedrock; bedrock |
