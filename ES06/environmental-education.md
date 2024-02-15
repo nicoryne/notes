@@ -68,15 +68,14 @@ A sequence of steps and processes is used to gain a better understanding through
 
 ### Organization of Ecology
 
-    | Characteristics of Life       |
-    | ````````````````````````````  |
-    | Organization                  |
-    | Growth and Development        |
-    | Reproduction                  |
-    | Heredity                      |
-    | Metabolism                    |
-    | Response to the environment   |
-    | Adaptation to the environment |
+    Characteristics of Life
+        - Organization 
+        - Growth and Development
+        - Reproduction
+        - Heredity
+        - Metabolism
+        - Response to the environment
+        - Adaptation to the environment
 
 #### Levels of Ecology
 
