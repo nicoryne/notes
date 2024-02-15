@@ -55,7 +55,7 @@ Short day plants: produce flowers after the winter solstice.
 ### Soil Horizons
 
 | Layer | Definitions |
-| :---: | :---------: |
+| :---: | :---------  |
 |   O   | Decomposed material; humus or organic |
 |   A   | Leached mineral horizon with high content of organic matter; topsoil |
 |   B   | Zone of accumulation of fine materials and mineral precipitates; subsoil |
