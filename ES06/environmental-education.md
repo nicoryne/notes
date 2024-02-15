@@ -69,7 +69,7 @@ A sequence of steps and processes is used to gain a better understanding through
 ### Organization of Ecology
 
     | Characteristics of Life       |
-    | :---------------------:       |
+    | ````````````````````````````  |
     | Organization                  |
     | Growth and Development        |
     | Reproduction                  |
