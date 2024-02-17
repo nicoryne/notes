@@ -54,7 +54,7 @@ There are six main types of attributes: Simple Composite, Single-valued, Multi-v
         *Example: The roll number of a student, the id number of an employee*
     
 - Composite Attribute
-    - an attribute that can be split into components is a composite attribute.
+    - an attribute that can be split into components.
         *Example: The address can be further split into house number, street number, city, state, country, and pin code.*
 
 - Single-valued Attribute
@@ -66,7 +66,7 @@ There are six main types of attributes: Simple Composite, Single-valued, Multi-v
         *Example: Phone number of a student can be either landline or mobile*
 
 - Derived Attribute
-    - an attribute that can be derived from other attributes is derived attributes.
+    - an attribute that can be derived from other attributes.
         *Example: Total and average marks of a student*
 
 #### Other Types of Attributes
