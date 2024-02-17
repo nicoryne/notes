@@ -43,4 +43,40 @@
 | Stored vs. Derived |
 | Identifier |
 
+### Types of Attributes
 
+There are six main types of attributes: Simple Composite, Single-valued, Multi-valued, and Derived.
+
+#### Main Types of Attributes
+
+- Simple Attribute
+    - an attribute that cannot be further subdivided into components.
+        *Example: The roll number of a student, the id number of an employee*
+    
+- Composite Attribute
+    - an attribute that can be split into components is a composite attribute.
+        *Example: The address can be further split into house number, street number, city, state, country, and pin code.*
+
+- Single-valued Attribute
+    - an attribute which takes up only a single value of each entity instance.
+        *Example: The age of a student*
+
+- Multi-valued Attribute
+    - an attribute which takes up more than a single value for each entity instance.
+        *Example: Phone number of a student can be either landline or mobile*
+
+- Derived Attribute
+    - an attribute that can be derived from other attributes is derived attributes.
+        *Example: Total and average marks of a student*
+
+#### Other Types of Attributes
+
+- Complex Attribute
+    - attributes which can be formed by the nesting of composite and multi-valued attributes.
+        *Example: Phone number of a person who owns more than one house, and each house has more than one phone number*
+
+## Identifiers (Keys)
+
+> attribute (or combination of attributes) that uniquely identifies individual instances of an entity type
+
+Candidate Identifier: an attribute that could be a key satisfies the requirements for being an identifier
