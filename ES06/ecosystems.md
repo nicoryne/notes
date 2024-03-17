@@ -39,6 +39,18 @@ Short day plants: produce flowers after the winter solstice.
 
 ### Water
 
+Earth's water
+    - 97% Oceans
+    - 3% Freshwater
+    - 70% Ice Caps and Glaciers
+    - 29% Groundwater
+    - 1% Easily Accessible Freshwater
+    - 52% Lakes
+    - 38% Soil Moisture
+    - 1% Rivers
+    - 1% Water in Living Things
+    - 1% Water Vapor
+
 - an agent of weathering
     - Hydrophytes (aquatic plants)
     - Mesophytes (terrestial plants that need moderate amount of water)
@@ -62,3 +74,10 @@ Short day plants: produce flowers after the winter solstice.
 |   B   | Zone of accumulation of fine materials and mineral precipitates; subsoil |
 |   C   | Partly weathered rock; parent material |
 |   R   | Hard bedrock; bedrock |
+
+
+### Symbiotic Relationships
+
+    - Mutualism (Benefit and Benefit)
+    - Commensalism (Unaffected and Benefit)
+    - Parisitism (Harmed and Benefit)
